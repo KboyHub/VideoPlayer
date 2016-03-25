@@ -47,7 +47,7 @@
     [super viewDidLoad];
     
     [self.videoImageView sd_setImageWithURL:[NSURL URLWithString:self.videoModel.middle_image]];
-    self.playTimeLabel.text = [NSString stringWithFormat:@"%02ld:%02ld", self.videoModel.videotime / 60, self.videoModel.videotime % 60];
+    self.playTimeLabel.text = [NSString stringWithFormat:@"%02d:%02d", self.videoModel.videotime / 60, self.videoModel.videotime % 60];
     self.nameLabel.text = self.videoModel.name;
     
 }

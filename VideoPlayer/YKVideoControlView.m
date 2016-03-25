@@ -141,6 +141,7 @@ static const CGFloat kVideoControlBarAutoFadeOutTimeinterval = 5.0;
 
 - (void)autoFadeOutControlBar
 {
+    self.playButton.hidden = YES;
     if (!self.isBarShowing) {
         return;
     }

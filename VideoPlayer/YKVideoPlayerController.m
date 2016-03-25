@@ -191,9 +191,11 @@ static const CGFloat videoPlayerControllerAnimationTimeinterval = 0.3f;
     if (!keyWindow) {
         keyWindow = [[[UIApplication sharedApplication] windows] firstObject];
     }
+    
     self.originView = self.view.superview;
     [keyWindow addSubview:self.view];
     [UIView animateWithDuration:0.3f animations:^{
+        
         self.frame = frame;
         [self.view setTransform:CGAffineTransformMakeRotation(M_PI_2)];
     } completion:^(BOOL finished) {
