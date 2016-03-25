@@ -16,8 +16,6 @@
 		B22D2EFD1CA390AE0024A9E5 /* VideoPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B22D2EFC1CA390AE0024A9E5 /* VideoPlayerTests.m */; };
 		B22D2F081CA390AE0024A9E5 /* VideoPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B22D2F071CA390AE0024A9E5 /* VideoPlayerUITests.m */; };
 		B22D2F171CA396910024A9E5 /* VideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B22D2F161CA396910024A9E5 /* VideoModel.m */; };
-		B22D2F391CA398F90024A9E5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B22D2F191CA398F90024A9E5 /* LICENSE */; };
-		B22D2F3A1CA398F90024A9E5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B22D2F1A1CA398F90024A9E5 /* README.md */; };
 		B22D2F3B1CA398F90024A9E5 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = B22D2F1D1CA398F90024A9E5 /* NSData+ImageContentType.m */; };
 		B22D2F3C1CA398F90024A9E5 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B22D2F1F1CA398F90024A9E5 /* SDImageCache.m */; };
 		B22D2F3D1CA398F90024A9E5 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = B22D2F211CA398F90024A9E5 /* SDWebImageCompat.m */; };
@@ -72,8 +70,6 @@
 		B22D2F091CA390AE0024A9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B22D2F151CA396910024A9E5 /* VideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoModel.h; sourceTree = "<group>"; };
 		B22D2F161CA396910024A9E5 /* VideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoModel.m; sourceTree = "<group>"; };
-		B22D2F191CA398F90024A9E5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		B22D2F1A1CA398F90024A9E5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B22D2F1C1CA398F90024A9E5 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		B22D2F1D1CA398F90024A9E5 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		B22D2F1E1CA398F90024A9E5 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
@@ -203,8 +199,6 @@
 		B22D2F181CA398F90024A9E5 /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
-				B22D2F191CA398F90024A9E5 /* LICENSE */,
-				B22D2F1A1CA398F90024A9E5 /* README.md */,
 				B22D2F1B1CA398F90024A9E5 /* SDWebImage */,
 			);
 			path = SDWebImage;
@@ -362,7 +356,6 @@
 			files = (
 				B22D2EF21CA390AE0024A9E5 /* LaunchScreen.storyboard in Resources */,
 				B22D2EEF1CA390AE0024A9E5 /* Assets.xcassets in Resources */,
-				B22D2F391CA398F90024A9E5 /* LICENSE in Resources */,
 				B22D2EED1CA390AE0024A9E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,7 +390,6 @@
 				B22D2F441CA398F90024A9E5 /* UIImage+GIF.m in Sources */,
 				B22D2F421CA398F90024A9E5 /* SDWebImagePrefetcher.m in Sources */,
 				B22D2EE71CA390AE0024A9E5 /* AppDelegate.m in Sources */,
-				B22D2F3A1CA398F90024A9E5 /* README.md in Sources */,
 				B22D2F3F1CA398F90024A9E5 /* SDWebImageDownloader.m in Sources */,
 				B22D2F991CA3E2710024A9E5 /* YKVideoPlayerController.m in Sources */,
 				B22D2F431CA398F90024A9E5 /* UIButton+WebCache.m in Sources */,
